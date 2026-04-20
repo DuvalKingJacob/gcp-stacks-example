@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 identity_token "gcp" {
-  audience = ["//iam.googleapis.com/projects/546669278926/locations/global/workloadIdentityPools/wi-pool-gcp-stacks-example/providers/wi-provider-gcp-stacks-example"]
+  audience = ["https://iam.googleapis.com/projects/546669278926/locations/global/workloadIdentityPools/wi-pool-gcp-stacks-example/providers/wi-provider-gcp-stacks-example"]
 }
 
 deployment "us-central1" {
