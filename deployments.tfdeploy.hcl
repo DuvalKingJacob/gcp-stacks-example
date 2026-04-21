@@ -39,4 +39,4 @@ deployment_auto_approve "no_changes" {
      deployment_auto_approve.no_changes,
      deployment_auto_approve.safe_changes
    ]
-# }
+}
