@@ -24,6 +24,7 @@ deployment_group "prod" {
 
   deployment "development" {
     deployment_group = deployment_group.dev
+    destroy = true
     inputs = {
       identity_token        = identity_token.gcp.jwt
       audience              = "//iam.googleapis.com/projects/546669278926/locations/global/workloadIdentityPools/wi-pool-gcp-stacks-example/providers/wi-provider-gcp-stacks-example"
